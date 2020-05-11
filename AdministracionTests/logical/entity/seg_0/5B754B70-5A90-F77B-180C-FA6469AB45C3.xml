@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5B754B70-5A90-F77B-180C-FA6469AB45C3" name="curso">
+<createdBy>takeshi</createdBy>
+<createdTime>2020-05-07 23:25:55 UTC</createdTime>
+<ownerDesignName>AdministracionTests</ownerDesignName>
+<engineerTo>
+<item key="8CAD9FE2-34BE-57F2-6ED4-211F9445E178" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idCurso" id="EC65DA68-132F-5814-D7E3-BE0D73A00747">
+<createdBy>takeshi</createdBy>
+<createdTime>2020-05-10 01:46:59 UTC</createdTime>
+<ownerDesignName>AdministracionTests</ownerDesignName>
+<engineerTo>
+<item key="8CAD9FE2-34BE-57F2-6ED4-211F9445E178" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ubicacion" id="CC95D455-04FE-7CAC-2414-C2EF8FC74BB0">
+<createdBy>takeshi</createdBy>
+<createdTime>2020-05-10 01:53:08 UTC</createdTime>
+<ownerDesignName>AdministracionTests</ownerDesignName>
+<engineerTo>
+<item key="8CAD9FE2-34BE-57F2-6ED4-211F9445E178" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0D3A225A-85F7-C59C-7080-B4084B779F33" name="curso PK">
+<createdBy>takeshi</createdBy>
+<createdTime>2020-05-10 01:47:11 UTC</createdTime>
+<ownerDesignName>AdministracionTests</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="8CAD9FE2-34BE-57F2-6ED4-211F9445E178" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EC65DA68-132F-5814-D7E3-BE0D73A00747</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

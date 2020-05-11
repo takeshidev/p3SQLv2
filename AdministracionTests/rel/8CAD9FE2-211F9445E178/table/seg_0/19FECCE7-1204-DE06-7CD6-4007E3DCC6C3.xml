@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="19FECCE7-1204-DE06-7CD6-4007E3DCC6C3" name="curso">
+<createdBy>takeshi</createdBy>
+<createdTime>2020-05-10 02:29:31 UTC</createdTime>
+<generatorID>5B754B70-5A90-F77B-180C-FA6469AB45C3</generatorID>
+<ownerDesignName>AdministracionTests</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idCurso" id="3FEFBDC2-4CA6-CBC9-CBE3-1A1ABA772B5F">
+<createdBy>takeshi</createdBy>
+<createdTime>2020-05-10 02:29:31 UTC</createdTime>
+<generatorID>EC65DA68-132F-5814-D7E3-BE0D73A00747</generatorID>
+<ownerDesignName>AdministracionTests</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ubicacion" id="9E002FBC-0F39-71B6-FB50-096E3D36DE07">
+<createdBy>takeshi</createdBy>
+<createdTime>2020-05-10 02:29:31 UTC</createdTime>
+<generatorID>CC95D455-04FE-7CAC-2414-C2EF8FC74BB0</generatorID>
+<ownerDesignName>AdministracionTests</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="81FFAB36-E7F3-210F-9C5E-2E99728AA4F3" name="curso_PK">
+<createdBy>takeshi</createdBy>
+<createdTime>2020-05-10 02:29:31 UTC</createdTime>
+<generatorID>0D3A225A-85F7-C59C-7080-B4084B779F33</generatorID>
+<ownerDesignName>AdministracionTests</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3FEFBDC2-4CA6-CBC9-CBE3-1A1ABA772B5F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="36BD5B41-519F-D61E-C9F7-73B0E5CE6A20" name="testCurso">
+<createdBy>takeshi</createdBy>
+<createdTime>2020-05-10 02:29:31 UTC</createdTime>
+<ownerDesignName>AdministracionTests</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="test_idTest" id="56565FC6-7BDC-B874-91B5-310757514B1A">
+<createdBy>takeshi</createdBy>
+<createdTime>2020-05-10 02:29:31 UTC</createdTime>
+<ownerDesignName>AdministracionTests</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BE18ADE7-B566-D965-1B24-872650CE6C26" referredColumn="0C9B9AB0-DCD2-A37E-FA02-94BFF94FAB3B"/>
+</associations>
+</Column>
+<Column name="curso_idCurso" id="D1D2BFC0-39F0-B003-4A0E-828A6E2C6EB3">
+<createdBy>takeshi</createdBy>
+<createdTime>2020-05-10 02:29:31 UTC</createdTime>
+<ownerDesignName>AdministracionTests</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="690EB7BC-92BA-2BD5-5CA3-F114F0937955" referredColumn="3FEFBDC2-4CA6-CBC9-CBE3-1A1ABA772B5F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="660777B0-2EA9-CAB3-1DA7-758B5184C997" name="testCurso_PK">
+<createdBy>takeshi</createdBy>
+<createdTime>2020-05-10 02:29:31 UTC</createdTime>
+<ownerDesignName>AdministracionTests</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="56565FC6-7BDC-B874-91B5-310757514B1A"/>
+<colUsage columnID="D1D2BFC0-39F0-B003-4A0E-828A6E2C6EB3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D2C78695-3F73-5B9E-A41E-FCD84CA2A54D" name="testCurso_test_FK">
+<createdBy>takeshi</createdBy>
+<createdTime>2020-05-10 02:29:31 UTC</createdTime>
+<generatorID>0E6202DB-D9CE-5404-CB46-DC7F259F79E6</generatorID>
+<ownerDesignName>AdministracionTests</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="56565FC6-7BDC-B874-91B5-310757514B1A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="797A43BE-2638-65B4-5120-8C79DFE141CE" name="testCurso_curso_FK">
+<createdBy>takeshi</createdBy>
+<createdTime>2020-05-10 02:29:31 UTC</createdTime>
+<generatorID>0E6202DB-D9CE-5404-CB46-DC7F259F79E6</generatorID>
+<ownerDesignName>AdministracionTests</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D1D2BFC0-39F0-B003-4A0E-828A6E2C6EB3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

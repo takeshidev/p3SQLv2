@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F570C9EC-2578-57D2-7829-72CE990E9AC9" name="alumno">
+<createdBy>takeshi</createdBy>
+<createdTime>2020-05-07 23:26:48 UTC</createdTime>
+<ownerDesignName>AdministracionTests</ownerDesignName>
+<engineerTo>
+<item key="8CAD9FE2-34BE-57F2-6ED4-211F9445E178" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idAlumno" id="00943ACB-1843-A24A-FA81-D496876029E7">
+<createdBy>takeshi</createdBy>
+<createdTime>2020-05-07 23:45:08 UTC</createdTime>
+<ownerDesignName>AdministracionTests</ownerDesignName>
+<engineerTo>
+<item key="8CAD9FE2-34BE-57F2-6ED4-211F9445E178" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="E92529F3-2C65-BF86-2B24-E2F33C6302C8">
+<createdBy>takeshi</createdBy>
+<createdTime>2020-05-07 23:45:26 UTC</createdTime>
+<ownerDesignName>AdministracionTests</ownerDesignName>
+<engineerTo>
+<item key="8CAD9FE2-34BE-57F2-6ED4-211F9445E178" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idCurso" id="70E23869-4E17-EF8F-23AF-12D4EE9B33A2">
+<createdBy>takeshi</createdBy>
+<createdTime>2020-05-10 02:25:53 UTC</createdTime>
+<generatorID>E731C8F4-8033-D12C-6E14-159041ACEC4B</generatorID>
+<ownerDesignName>AdministracionTests</ownerDesignName>
+<engineerTo>
+<item key="8CAD9FE2-34BE-57F2-6ED4-211F9445E178" value="true"/>
+</engineerTo>
+<referedAttribute>EC65DA68-132F-5814-D7E3-BE0D73A00747</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D1494A46-B37E-D1A1-0B50-46A61131EBB7" name="alumno PK">
+<createdBy>takeshi</createdBy>
+<createdTime>2020-05-07 23:45:22 UTC</createdTime>
+<ownerDesignName>AdministracionTests</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="8CAD9FE2-34BE-57F2-6ED4-211F9445E178" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>00943ACB-1843-A24A-FA81-D496876029E7</attributeRef>
+<attributeRef>70E23869-4E17-EF8F-23AF-12D4EE9B33A2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

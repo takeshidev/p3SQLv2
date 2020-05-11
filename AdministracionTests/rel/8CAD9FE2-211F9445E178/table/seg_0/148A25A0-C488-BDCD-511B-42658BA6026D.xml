@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="148A25A0-C488-BDCD-511B-42658BA6026D" name="pregunta">
+<createdBy>takeshi</createdBy>
+<createdTime>2020-05-10 02:29:31 UTC</createdTime>
+<generatorID>0B7DE161-A650-A946-D0B5-DC8FCD9F0654</generatorID>
+<ownerDesignName>AdministracionTests</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idPregunta" id="14E532F9-B530-B857-D9EB-A1F8378502B4">
+<createdBy>takeshi</createdBy>
+<createdTime>2020-05-10 02:29:31 UTC</createdTime>
+<generatorID>A77B61B3-C9A3-6E8F-B404-9FC8FBC30DB8</generatorID>
+<ownerDesignName>AdministracionTests</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="enunciado" id="07615876-8601-ED7E-C638-7ED67EF0CF0D">
+<createdBy>takeshi</createdBy>
+<createdTime>2020-05-10 02:29:31 UTC</createdTime>
+<generatorID>01152AB2-8AFC-B9BF-D60D-9768D8A7E22A</generatorID>
+<ownerDesignName>AdministracionTests</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 CHAR</dataTypeSize>
+<ownDataTypeParameters>500 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="puntaje" id="F30FE2D7-47A6-AD27-75CE-C439FE95EFE3">
+<createdBy>takeshi</createdBy>
+<createdTime>2020-05-10 02:29:31 UTC</createdTime>
+<generatorID>41E9C2D0-CBFB-523A-8779-AAEBB105FD94</generatorID>
+<ownerDesignName>AdministracionTests</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="test_idTest" id="1E7A29CB-49A8-AD3B-A3C4-02320EBE45AC">
+<createdBy>takeshi</createdBy>
+<createdTime>2020-05-10 21:51:10 UTC</createdTime>
+<generatorID>FDD44FB4-FE36-C3B7-C0EE-427F0DE24398</generatorID>
+<ownerDesignName>AdministracionTests</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="11133BFD-C5C0-A2F0-3520-9F1998EA68CF" referredColumn="0C9B9AB0-DCD2-A37E-FA02-94BFF94FAB3B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="05846E79-18E8-FBC5-9A2F-D6480F745069" name="pregunta_PK">
+<createdBy>takeshi</createdBy>
+<createdTime>2020-05-10 02:29:31 UTC</createdTime>
+<generatorID>C865DB0B-9948-3DEC-74B1-4D6D0AEE0A73</generatorID>
+<ownerDesignName>AdministracionTests</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="14E532F9-B530-B857-D9EB-A1F8378502B4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="95B2EA26-4527-B0FD-416C-FABCFF86A4C2" name="pregunta_test_FK">
+<createdBy>takeshi</createdBy>
+<createdTime>2020-05-10 21:51:10 UTC</createdTime>
+<generatorID>96D43451-1172-9B41-4EAA-2FF4022ED501</generatorID>
+<ownerDesignName>AdministracionTests</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E7A29CB-49A8-AD3B-A3C4-02320EBE45AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

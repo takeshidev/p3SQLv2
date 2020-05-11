@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="51C9A6EA-5F4E-AA92-4658-9C34356583D5" name="respuesta">
+<createdBy>takeshi</createdBy>
+<createdTime>2020-05-07 23:27:29 UTC</createdTime>
+<ownerDesignName>AdministracionTests</ownerDesignName>
+<engineerTo>
+<item key="8CAD9FE2-34BE-57F2-6ED4-211F9445E178" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idRespuesta" id="9ED5A9D5-223B-BF9E-4754-AB918C62ACA6">
+<createdBy>takeshi</createdBy>
+<createdTime>2020-05-10 01:54:46 UTC</createdTime>
+<ownerDesignName>AdministracionTests</ownerDesignName>
+<engineerTo>
+<item key="8CAD9FE2-34BE-57F2-6ED4-211F9445E178" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idCurso" id="AA196EDD-E64E-C2C1-A5A2-2E0B0B07A6BE">
+<createdBy>takeshi</createdBy>
+<createdTime>2020-05-10 02:26:25 UTC</createdTime>
+<generatorID>44D1D6D5-D1EA-4831-C5B3-7F0F862793FB</generatorID>
+<ownerDesignName>AdministracionTests</ownerDesignName>
+<engineerTo>
+<item key="8CAD9FE2-34BE-57F2-6ED4-211F9445E178" value="true"/>
+</engineerTo>
+<referedAttribute>70E23869-4E17-EF8F-23AF-12D4EE9B33A2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idAlumno" id="24C9329C-E1FD-0D38-832E-50C42BACD629">
+<createdBy>takeshi</createdBy>
+<createdTime>2020-05-10 02:26:25 UTC</createdTime>
+<generatorID>44D1D6D5-D1EA-4831-C5B3-7F0F862793FB</generatorID>
+<ownerDesignName>AdministracionTests</ownerDesignName>
+<engineerTo>
+<item key="8CAD9FE2-34BE-57F2-6ED4-211F9445E178" value="true"/>
+</engineerTo>
+<referedAttribute>00943ACB-1843-A24A-FA81-D496876029E7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idPregunta" id="90ED8183-0FBC-03E9-48C7-70F60CE2D1A1">
+<createdBy>takeshi</createdBy>
+<createdTime>2020-05-10 21:37:56 UTC</createdTime>
+<generatorID>FE21D3F1-EFEF-C45E-4CEC-1D13660DE5C9</generatorID>
+<ownerDesignName>AdministracionTests</ownerDesignName>
+<engineerTo>
+<item key="8CAD9FE2-34BE-57F2-6ED4-211F9445E178" value="true"/>
+</engineerTo>
+<referedAttribute>A77B61B3-C9A3-6E8F-B404-9FC8FBC30DB8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idAlternativa" id="44B7F652-7757-8D68-5509-DEFAF30D3F17">
+<createdBy>takeshi</createdBy>
+<createdTime>2020-05-10 21:28:15 UTC</createdTime>
+<generatorID>B30D83E1-D327-6A50-CFD1-AB92B320CAAA</generatorID>
+<ownerDesignName>AdministracionTests</ownerDesignName>
+<engineerTo>
+<item key="8CAD9FE2-34BE-57F2-6ED4-211F9445E178" value="true"/>
+</engineerTo>
+<referedAttribute>51BB148D-152A-5FAD-3AD9-BFC7147FF4BB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C8593DAD-E472-E72D-F824-0E84F2425343" name="respuesta PK">
+<createdBy>takeshi</createdBy>
+<createdTime>2020-05-10 02:18:35 UTC</createdTime>
+<ownerDesignName>AdministracionTests</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="8CAD9FE2-34BE-57F2-6ED4-211F9445E178" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9ED5A9D5-223B-BF9E-4754-AB918C62ACA6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

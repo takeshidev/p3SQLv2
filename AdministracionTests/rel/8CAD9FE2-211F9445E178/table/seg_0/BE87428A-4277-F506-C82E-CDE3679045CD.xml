@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BE87428A-4277-F506-C82E-CDE3679045CD" name="alternativa">
+<createdBy>takeshi</createdBy>
+<createdTime>2020-05-10 02:29:31 UTC</createdTime>
+<generatorID>506E9C9D-E68E-3782-ECFB-7BA88EF203EF</generatorID>
+<ownerDesignName>AdministracionTests</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idAlternativa" id="283029EB-88D7-6935-63C1-5AD33DCD8FE3">
+<createdBy>takeshi</createdBy>
+<createdTime>2020-05-10 02:29:31 UTC</createdTime>
+<generatorID>51BB148D-152A-5FAD-3AD9-BFC7147FF4BB</generatorID>
+<ownerDesignName>AdministracionTests</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="39AD5BDB-4860-AA70-DB34-EF3018832F9F">
+<createdBy>takeshi</createdBy>
+<createdTime>2020-05-10 02:29:31 UTC</createdTime>
+<generatorID>8FAB5027-3DB0-0DB3-76BD-6164DA1B2FD6</generatorID>
+<ownerDesignName>AdministracionTests</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="correcta" id="380244B1-11E5-AFF5-0DC7-22F49DB6A1B2">
+<createdBy>takeshi</createdBy>
+<createdTime>2020-05-10 02:29:31 UTC</createdTime>
+<commentInRDBMS><![CDATA[1 si
+2 no]]></commentInRDBMS>
+<generatorID>3D31E463-FDA7-889D-817F-F8C67DEE6D58</generatorID>
+<ownerDesignName>AdministracionTests</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="porcentaje" id="ECEDC1A1-80E7-51EB-FA23-D39587D530FD">
+<createdBy>takeshi</createdBy>
+<createdTime>2020-05-10 02:29:31 UTC</createdTime>
+<generatorID>2BB8E69F-2511-EC82-888B-8346DB4ED888</generatorID>
+<ownerDesignName>AdministracionTests</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,2,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pregunta_idPregunta" id="A220DF76-92AD-7FEB-9F44-6F9183331AC9">
+<createdBy>takeshi</createdBy>
+<createdTime>2020-05-10 21:51:10 UTC</createdTime>
+<generatorID>7698A7F3-137B-4A9E-B7D0-C0D1C74C051E</generatorID>
+<ownerDesignName>AdministracionTests</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BC22AADA-EF24-E778-E73D-7349D3B10BC1" referredColumn="14E532F9-B530-B857-D9EB-A1F8378502B4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6E02E8D9-7240-282A-1298-26EE58CF77C8" name="alternativa_PK">
+<createdBy>takeshi</createdBy>
+<createdTime>2020-05-10 02:29:31 UTC</createdTime>
+<generatorID>8D8A11CF-5AC8-23CE-93A4-581C70443ECB</generatorID>
+<ownerDesignName>AdministracionTests</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="283029EB-88D7-6935-63C1-5AD33DCD8FE3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2180B8CE-7C25-D495-BE98-608688CBD1A9" name="alternativa_pregunta_FK">
+<createdBy>takeshi</createdBy>
+<createdTime>2020-05-10 21:51:10 UTC</createdTime>
+<generatorID>7CCCF72D-3CEE-FDBA-3A5E-BBFFEF021E89</generatorID>
+<ownerDesignName>AdministracionTests</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A220DF76-92AD-7FEB-9F44-6F9183331AC9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
